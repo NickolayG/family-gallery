@@ -1,0 +1,63 @@
+/* .topNav > a:nth-child(1)::after {
+    content: "";
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-top: 2px solid rgba(0, 0, 0, 0.3);
+} */
+
+/* .mobileNavDropdown > a:nth-child(1)::after {
+    content: "";
+    display: block;
+    margin: auto;
+    width: 15%;
+    border-top: 2px solid rgba(0, 0, 0, 0.3);
+} */
+
+body {
+    background: #fafafa;
+}
+
+.photo-gallery {
+    /* Photo Gallery */
+    --width: 95%;
+    --gap: 16px;
+    --num-cols: 3;
+    --row-height: 400px;    
+
+    width: var(--width);
+    margin: auto;
+    box-sizing: border-box;
+    padding: var(--gap);
+
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
+}
+
+.photo-gallery > img {
+    /* Each image within Family Gallery */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.photo-gallery-col-2 {
+    /* Set height to double */
+    grid-column: span 2;
+}
+
+.photo-gallery-row-2 {
+    /* Set width to double */
+    grid-row: span 2;
+}
+
+@media screen and (max-width: 1024px) {
+/* Change if below 1024px */
+    .photo-gallery {
+        --num-cols: 1;
+        --row-height: 200px;
+    }
+
+}

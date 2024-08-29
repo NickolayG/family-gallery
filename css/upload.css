@@ -1,0 +1,89 @@
+/* .topNav > a:nth-child(2)::after {
+    content: "";
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-top: 2px solid rgba(0, 0, 0, 0.3);
+} */
+
+/* .mobileNavDropdown > a:nth-child(2)::after {
+    content: "";
+    display: block;
+    margin: auto;
+    width: 17%;
+    border-top: 2px solid rgba(0, 0, 0, 0.3);
+} */
+
+/* main {
+    min-height: calc(100vh - 50px - 100px - 175px);
+} */
+
+.menuBox {
+    --width: 100%;
+    --height: 450px;
+
+    max-width: 700px;
+
+    width: var(--width);
+    height: var(--height);
+
+    position: absolute;
+    top: calc(50% - 25px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+.menuBox > h2 {
+    margin-top: 10px;
+    text-align: center;
+
+    font-family: Arial;
+    font-weight: 500;
+}
+
+.menuBox > h2::after {
+    content: '';
+    display: block;
+    margin: 5px auto;
+    width: 90%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.uploadMenu {
+    width: 40%;
+    height: 70%;
+
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.uploadBox {
+    width: 100%;
+    height: 80%;
+
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.uploadButton {
+    width: 150px;
+    height: 35px;
+    margin: 15px auto;
+}
+
+.uploadButton > button {
+    width: 100%;
+    height: 100%;
+    
+    background-color: #93ea42;
+
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+
+    color: white;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+}

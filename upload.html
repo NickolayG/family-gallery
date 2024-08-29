@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Gallery</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,87.5,300..800;1,87.5,300..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/upload.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Header Logo -->
+        <div class="headerLogo">
+            <a href="index.html">
+                <img src="img/logo.png" alt="logo">
+            </a>
+        </div>
+
+        <!-- Top Navigation -->
+        <nav class="topNav">
+            <a href="index.html">Home</a>
+            <a href="upload.html">Upload</a>
+            <a href="#familytree">Family Tree</a>
+            <a href="#admin">Admin</a>
+            <div class="dropdown">
+                <button class="topNavAccount">
+                    <img src="img/placeholder/profile_picture.jpg" alt="account">
+                </button>
+                <div class="dropdown-menu">
+                    <a href="#account">Account</a>
+                    <a href="upload.html">Upload</a>
+                    <a href="#settings">Settings</a>
+                </div>
+            </div>
+            <div class="mobileNavMenu" id="mobileNavMenuButton">
+                <i class="material-icons" style="font-size:36px; margin-top: 7px;">menu</i>
+                <div class="mobileNavDropdown" id="mobileDropMenu">
+                    <a href="index.html">Home</a>
+                    <a href="upload.html">Upload</a>
+                    <a href="#familytree">Family Tree</a>
+                    <a href="#admin">Admin</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <section class="menuBox">
+                <h2>Photo Upload</h2>
+                <div class="uploadMenu">
+                    <div class="uploadBox"></div>
+                    <div class="uploadButton">
+                        <button draggable="false">Select File</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footerItems">
+            <nav class="bottomNav">
+                <a href="#home">Home</a>
+                <a href="about">Upload</a>
+                <a href="familytree">Family Tree</a>
+                <a href="admin">Admin</a>
+            </nav>
+            <section class="copyright">
+                <p>&copy;2024 Placeholder</p>
+            </section>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/global.js"></script>
+</body>
+</html>
