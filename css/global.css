@@ -186,7 +186,7 @@ footer {
     }
 
     .mobileNavDropdown {
-        display: block;
+        display: none;
         position: absolute;
 
         width: 100%;
