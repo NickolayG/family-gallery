@@ -16,3 +16,11 @@ if (mq.matches) {
         }
     })
 }
+
+const accountBtn1 = document.getElementById("btn1");
+const accountBtn2 = document.getElementById("btn2");
+const accountBtn3 = document.getElementById("btn3");
+
+accountBtn2.addEventListener("click", function() {
+    //
+})

@@ -1,0 +1,41 @@
+body {
+    background-color: #f4f6f8;
+}
+
+.container {
+    max-width: 90%;
+    margin: 5px auto;
+}
+
+.navLinks a, p {
+    text-decoration: none;
+}
+
+.myAccountTitle {
+    margin-top: 15px;
+    font-weight: 500;
+    font-family: "Open Sans", sans-serif;
+}
+
+.accountButtons {
+    width: 125px;
+}
+
+.accountButtons > button:first-child {
+    margin-top: 30px;
+    background-color: #f4f6f8;
+}
+
+.accountButtons > button {
+    background-color: #f4f6f8;
+
+    width: 125px;
+    height: 35px;
+
+    border: none;
+    border-radius: 5px;
+
+    text-align: left;
+
+    padding-left: 10px;
+}
