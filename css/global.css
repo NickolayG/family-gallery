@@ -112,8 +112,7 @@ header {
     transition: transform 300ms ease-in-out;
 }
 
-.dropdown-menu > a:hover::after,
-.dropdown-menu > a:focus::after {
+.dropdown-menu > a:hover::after {
     transform: scaleX(1);
 }
 
