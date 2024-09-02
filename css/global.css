@@ -159,6 +159,11 @@ footer {
     margin-top: 15px;
 }
 
+@media screen and (min-width: 801px) {
+    .mobileNavMenu {
+        display: none;
+    }
+}
 
 @media screen and (max-width: 800px) {
     .topNav > a {
